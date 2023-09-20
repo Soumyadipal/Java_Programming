@@ -27,8 +27,8 @@ public class ProblemOnSortingAlgorithm1 {
 
 // Q.2) Given an array of names of the fruits; you are supposed to sort it in lexicographical order using
 // the selection sort
-// Input : ["papaya","lime","watermelon","apple","mango","kiwi"]
-// Output : ["apple","kiwi","lime","mango","papaya","watermelon"]
+// Input : ["papaya","lime","watermelon","apple","mango","kiwi"].
+// Output : ["apple","kiwi","lime","mango","papaya","watermelon"].
 class LexicographicalStringSort {
     static void swap(String [] arr,int a,int b) {
         String temp = arr[a];
