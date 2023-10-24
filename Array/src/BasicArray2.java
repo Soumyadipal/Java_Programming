@@ -1,4 +1,4 @@
-// Q.1) Calculate the sum of elementsbin the given Array
+// Q.1) Calculate the sum of elements in the given Array
 // arr = {8,4,6,5,10}
 // Q.2) Calculate the maximum value out of all the elements in an Array
 // Q.3) Search the given x in the array.If present then return the index else return -1
