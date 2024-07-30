@@ -171,3 +171,26 @@ class  StringCompression {
         System.out.println(ans);
     }
 }
+ // Q.7) Reverse a string using two pointer approach
+ import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        //System.out.println("Try programiz.pro");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the string : ");
+        StringBuilder str = new StringBuilder(sc.nextLine());
+        int i = 0,j = str.length() - 1;
+        while(i < j){
+            char temp = str.charAt(i);
+            str.setCharAt(i,str.charAt(j));
+            str.setCharAt(j,temp);
+            i++;
+            j--;
+        }
+        System.out.print("After reverse the string is : ");
+        System.out.print(str);
+    }
+}
+
+Enter the string : Soumyadip Pal
+After reverse the string is : laP pidaymuoS
